@@ -1,0 +1,298 @@
+@media(min-width : 320px) and (max-width : 567px){
+ .section-title {
+        padding: 14px;
+        margin-bottom: 10px;
+    }
+    .header-main {
+        display: flex;
+        align-items: center;
+    }
+    .header-info h2 {
+        font-size: 24px;
+        font-family: system-ui;
+        margin: 10px 20px;
+    }
+    .header-details{
+        display: none !important;
+    }
+    .header-details ul {
+        display: none;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+    }
+    .icon {
+        display: block;
+        position: absolute;
+        right: 5px;
+        z-index: 999;
+    }
+    .fa-close {
+        color: rgb(0, 0, 0) !important;
+    }
+    .show {
+        display: block !important;
+    }
+    .header-details {
+        position: fixed;
+        overflow: hidden;
+        inset: 0;
+        background: rgb(81 89 96 / 80%);
+        transition: 0.3s;
+        padding: 0;
+        z-index: 0;
+    }
+   .header-details ul {
+        display: block;
+        position: absolute;
+        padding: 50px 0;
+        margin: 0;
+        width: 90%;
+        height: 100%;
+        top: 18px;
+        right: 0;
+        border-radius: 6px;
+        background-color: #ffffff;
+        overflow-y: auto;
+        transition: 0.3s;
+        z-index: 1;
+        box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    }
+    .header-details a {
+        color: #212529;
+        padding: 13px 26px;
+        font-family: "Raleway",  sans-serif;
+        font-size: 17px;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        white-space: nowrap;
+        transition: 0.3s;
+    }
+    .header-contact{
+        display: none;
+    }
+    .icon i {
+        font-size: 22px;
+    }
+
+    .creative{
+        font-size: 16px;
+        margin-bottom: 6px;
+    }
+    .innov{
+        font-size: 40px;
+    }
+    .ignite{
+        animation: unset;
+        font-size: 40px;
+    }
+    .chat-social{
+        display: block;
+        height: 200px;
+    }
+    .let-chat{
+        width: 98%;
+        right: 0;
+        left: 2%;
+        top: 50px;
+        height: 400px;
+        position: relative;
+        border-radius: 30%;
+    }
+    .about-social{
+        width: 90%;
+        position: absolute;
+        top: 850px;
+    }
+    .social{
+        position: absolute;
+        top: 950px;
+    }
+    .first-intro{
+        margin: 0;
+        width: 100%;
+        padding-bottom: 60px;
+    }
+    .number1-intro p{
+        font-size: 22px;
+    }
+     .stats-container {
+        flex-direction: column;
+        gap: 1.5rem;
+      }
+      .stat-number {
+        font-size: 2rem;
+      }
+
+      .data-count{
+        display: flex;
+        justify-content: space-between;
+      }
+      .odometer{
+        font-size: 22px;
+      }
+      .sub-title{
+        font-size: 12px;
+      }
+    .number2-intro{
+        display: block;
+    }
+    .services{
+        width: 100%;
+    }
+    .our{
+        font-size: 35px;
+    }
+    .view-service{
+        width: 100%;
+        text-align: left;
+    }
+    .solutions{
+        font-size: 35px;
+    }
+    .service-carts{
+        display: block;
+    }
+    .carts{
+        width: 100%;
+    }
+
+    .orbit-line {
+        width: 333px;
+        height: 400px;
+      }
+      .orbit-line.inner {
+        width: 280px;
+        height: 280px;
+      }
+      .orbit-img {
+        width: 100px;
+        height: 100px;
+      }
+      .center-content {
+        width: 200px;
+        height: 200px;
+      }
+
+      .innovative h1{
+        font-size: 25px;
+      }
+      .design h1{
+        font-size: 22px;
+      }
+      .design h2{
+        font-size: 35px;
+      }
+
+      .view-insights{
+        width: 100%;
+        text-align: left;
+      }
+      .insight-carts{
+        display: block;
+      }
+      .cartbox{
+        width: 100%;
+      }
+      .cartbox h3{
+        font-size: 22px;
+      }
+      .trophies{
+        display: block;
+      }
+      .trophy-imagg{
+        width: 100%;
+      }
+      .trophy-list{
+        width: 100%;
+      }
+      .trophy-name h1{
+        font-size: 28px;
+      }
+
+      .trophy-name p{
+        width: 32px;
+        height: 32px;
+        font-size: 12px;
+        line-height: normal;
+        padding: 6px;
+      }
+
+      .shape{
+        display: none;
+      }
+      .slider-content{
+        display: block;
+      }
+      swiper-slide{
+        width: 100%;
+      }
+      swiper-slide p{
+        font-size: 16px;
+      }
+
+
+       footer {
+        grid-template-columns: 1fr;  
+        padding: 30px 20px;
+        gap: 30px;
+    }
+
+    .footer-left h1 {
+        font-size: 26px;
+        line-height: 1.3;
+    }
+    .footer-left img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .subscribe .input-box {
+        flex-direction: row;
+        border-bottom: 1.5px solid #6c3cff;
+    }
+    .subscribe input {
+        font-size: 14px;
+        padding: 6px;
+    }
+    .subscribe button {
+        font-size: 16px;
+    }
+
+    .footer-right {
+        padding-left: 0;  
+    }
+
+    .links {
+        gap: 25px;
+        margin-bottom: 20px;
+    }
+
+    .social-icons {
+        margin-bottom: 30px;
+    }
+
+    .chat-btn {
+        position: static;   
+        margin: 20px auto;
+        width: 90px;
+        height: 90px;
+        font-size: 12px;
+    }
+    .chat-btn i {
+        font-size: 18px;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+        gap: 8px;
+        font-size: 13px;
+    }
+    
+    }
+
+
+
